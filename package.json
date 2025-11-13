@@ -1,0 +1,29 @@
+{
+  "name": "tiktok-trending-videos-scraper",
+  "version": "1.0.0",
+  "description": "Scrape top TikTok trending videos with enriched metadata, including author profiles and full engagement stats.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:config": "node src/index.js --config ./data/inputs.sample.json",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "tiktok",
+    "scraper",
+    "trending",
+    "videos",
+    "analytics",
+    "marketing"
+  ],
+  "author": "Bitbash",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
