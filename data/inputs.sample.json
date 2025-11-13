@@ -1,0 +1,8 @@
+{
+  "country": "US",
+  "period": 7,
+  "limit": 20,
+  "sort_by": "vv",
+  "format": "json",
+  "outputFile": "./data/sample-output.json"
+}
