@@ -1,0 +1,14 @@
+{
+  "tiktok": {
+    "baseUrl": "https://www.tiktok.com",
+    "timeoutMs": 15000,
+    "defaultCountry": "US",
+    "defaultPeriod": 7,
+    "defaultLimit": 20,
+    "defaultSortBy": "vv"
+  },
+  "http": {
+    "maxRetries": 2,
+    "retryDelayMs": 500
+  }
+}
