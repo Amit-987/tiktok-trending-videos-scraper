@@ -1,0 +1,6 @@
+# Node environment and log level
+NODE_ENV=development
+LOG_LEVEL=info
+
+# Default output directory for exported files
+OUTPUT_DIR=./data
